@@ -1,0 +1,768 @@
+.bg-image {
+    background-image: url('Cricket/newasset 20.jpeg');
+    /* Default background image for screens <= 1000px */
+    background-size: cover;
+    /* Cover the entire div */
+    background-position: center;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Prevent repeating of the image */
+    height: 100vh;
+    /* Full viewport height */
+    width: 100%;
+    /* Full width */
+    position: relative;
+    /* Allow positioning of child elements */
+}
+
+.logo {
+    position: absolute;
+    /* Position the logo absolutely */
+    top: 20px;
+    /* Distance from top */
+    right: 20px;
+    /* Distance from right */
+    width: 80px;
+    /* Logo width */
+    height: auto;
+    /* Maintain aspect ratio */
+}
+
+.content-container {
+    position: absolute;
+    top: 140%;
+    right: 30%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff;
+    background-color: #FDC600;
+    width: 40vw;
+}
+
+.heading {
+    font-size: 70px;
+    /* Heading font size */
+    margin-bottom: 20px;
+    /* Space below heading */
+}
+
+.sub-heading {
+    font-size: 3.75rem;
+    color: #FDC600;
+}
+
+.text-content {
+    font-size: 2rem;
+}
+
+.text-content a {
+    color: #FDC600;
+    /* Change text color to #FDC600 */
+    border: 2px dashed white;
+    /* White dashed border around the link */
+    padding: 2px 2px;
+    /* Add some padding inside the border */
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.button {
+    background-color: #FDC600;
+    /* Button background color */
+    color: #fff;
+    /* Button text color */
+    padding: 10px 20px;
+    /* Button padding */
+    border: none;
+    /* Remove button border */
+    border-radius: 35px;
+    /* Button border radius */
+    font-size: 30px;
+    /* Button font size */
+    cursor: pointer;
+    /* Change cursor on hover */
+    width: 20vw;
+    font-weight: 800;
+}
+
+@media (max-width: 1000px) {
+    .content-container {
+        top: 120%;
+        right: 20%;
+        width: 60vw;
+        font-weight: 800;
+        border-radius: 45px;
+    }
+
+    .heading {
+        font-size: 50px;
+        font-weight: 700;
+    }
+
+    .sub-heading {
+        font-size: 3rem;
+        color: rgb(122, 35, 209);
+        font-weight: 700;
+    }
+
+    .text-content {
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+    .text-content a{
+        color:rgb(122, 35, 209) ;
+        font-weight: 700;
+    }
+
+    .button {
+        font-size: 25px;
+        width: 30vw;
+        background-color:rgb(122, 35, 209);
+    }
+}
+
+@media (max-width: 768px) {
+    .content-container {
+        top: 100%;
+        right: 10%;
+        width: 80vw;
+    }
+
+    .heading {
+        font-size: 40px;
+    }
+
+    .sub-heading {
+        font-size: 2.5rem;
+    }
+
+    .text-content {
+        font-size: 1.2rem;
+    }
+
+    .button {
+        font-size: 20px;
+        width: 40vw;
+    }
+}
+
+@media (max-width: 480px) {
+    .content-container {
+        top: 85%;
+        right: 5%;
+        width: 90vw;
+    }
+
+    .heading {
+        font-size: 30px;
+    }
+
+    .sub-heading {
+        font-size: 2rem;
+    }
+
+    .text-content {
+        font-size: 1rem;
+    }
+
+    .button {
+        font-size: 18px;
+        width: 50vw;
+    }
+}
+
+.logo {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 80px;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    .logo {
+        width: 60px;
+        /* Adjust the logo size for screens smaller than 768px */
+    }
+}
+
+@media (max-width: 480px) {
+    .logo {
+        width: 40px;
+        /* Adjust the logo size for screens smaller than 480px */
+        top: 2%;
+        right: 2%;
+    }
+}
+
+@media (min-width: 1001px) {
+    .bg-image {
+        background-image: url('Cricket/asset 20.jpeg');
+        /* New background image for screens > 1000px */
+        background-size: cover;
+        /* Use cover for full coverage */
+        height: 90vh;
+        /* Full viewport height */
+    }
+
+    .content-container {
+        top: 40%;
+        right: 10%;
+        position: absolute;
+        transform: translateY(-50%);
+        /* Vertically center the content */
+        text-align: right;
+        /* Align text to the right */
+        color: #fff;
+        background-color: transparent;
+
+    }
+
+}
+
+
+@media (max-width: 600px) {
+    .bg-image {
+        height: 60vh;
+        /* Further adjust height for mobile */
+    }
+
+    .content-container {
+        top: 85%;
+    }
+
+}
+
+.logo {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 80px;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    .logo {
+        width: 60px;
+        /* Adjust the logo size for screens smaller than 768px */
+    }
+}
+
+@media (max-width: 480px) {
+    .logo {
+        width: 40px;
+        /* Adjust the logo size for screens smaller than 480px */
+    }
+}
+.header1 {
+font-weight: bold;
+text-align: center;
+padding: 20px;
+background-color: #f8f8f8;
+}
+
+.icon-container1 {
+background-color: #EBEBEB;
+border-radius: 63px;
+padding: 47px;
+margin: 0 90px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+gap: 2px; /* Optional: gap between icons */
+flex-wrap: wrap; /* Allow icons to wrap on smaller screens */
+}
+
+.icon-item1 {
+text-align: center;
+margin: 10px; /* Add some margin for better spacing on smaller screens */
+}
+
+.icon-item1 img {
+width: 120px;
+height: 120px;
+}
+
+.icon-item1 p {
+margin: 10px 0 0;
+font-size: 16px;
+color: #000000; /* Optional: text color */
+}
+
+@media (max-width: 1000px) {
+.header1 {
+padding: 15px;
+margin-top: 26%;
+}
+.icon-container1 {
+padding: 35px;
+margin: 0 50px;
+}
+.icon-item1 img {
+width: 100px;
+height: 100px;
+}
+.icon-item1 p {
+font-size: 14px;
+}
+}
+
+@media (max-width: 768px) {
+.header1 {
+padding: 10px;
+margin-top: 20%;
+}
+.icon-container1 {
+padding: 25px;
+margin: 0 30px;
+}
+.icon-item1 img {
+width: 80px;
+height: 80px;
+}
+.icon-item1 p {
+font-size: 12px;
+}
+}
+@media (max-width: 600px) {
+.header1 {
+padding: 5px;
+margin-top: 45%;
+}
+}
+
+@media (max-width: 480px) {
+.header1 {
+padding: 5px;
+margin-top: 60%;
+}
+.icon-container1 {
+padding: 15px;
+margin: 0 10px;
+}
+.icon-item1 img {
+width: 60px;
+height: 60px;
+}
+.icon-item1 p {
+font-size: 10px;
+}
+}
+@media (max-width: 350px) {
+.header1 {
+padding: 5px;
+margin-top: 80%;
+}
+.icon-container1 {  
+padding: 15px;
+margin: 0 10px;
+}
+.icon-item1 img {
+width: 60px;
+height: 60px;
+}
+.icon-item1 p {
+font-size: 10px;
+}
+}
+@media (max-width: 350px) {
+.header1 {
+padding: 5px;
+margin-top: 105%;
+}
+}
+   /* Apply box-sizing globally */
+   *,
+   *::before,
+   *::after {
+       box-sizing: border-box;
+   }
+
+   html, body {
+       margin: 0; /* Remove default margins */
+       padding: 0; /* Remove default padding */
+       width: 100%; /* Ensure full width */
+       overflow-x: hidden; /* Prevent horizontal overflow */
+   }
+
+   .main-container2 {
+       position: relative;
+       width: 100%;
+       overflow: hidden; /* Prevents overflow of content */
+   }
+
+   .image-container2 {
+       position: relative;
+       width: 100%;
+   }
+
+   .image2 {
+       max-width: 100%;
+       height: auto;
+   }
+
+   .content-container2 {
+       position: absolute;
+       top: 32%; /* Positioning the content */
+       left: 11%; /* Positioning the content */
+       color: #fff; /* Text color for visibility */
+       width: 51vw;
+       padding: 20px;
+       border-radius: 10px;
+       transition: all 0.3s ease; /* Smooth transition */
+   }
+   .content-container3{
+       position:absolute;
+       top: 32%; /* Positioning the content */
+       left: 50%; /* Positioning the content */
+       color: #fff; /* Text color for visibility */
+       width: 51vw;
+       padding: 20px;
+       border-radius: 10px;
+       transition: all 0.3s ease; /* Smooth transition */
+   }
+   .heading2 {
+       font-size: 36px;
+       font-weight: bold;
+       /* margin-bottom: 20px; */
+   }
+
+   .sub-heading2 {
+       font-size: 18px;
+   }
+
+   .button2 {
+       background-color: #9441FF;
+       color: #fff;
+       border: none;
+       padding: 8px 20px;
+       font-size: 16px;
+       border-radius: 5px;
+       cursor: pointer;
+   }
+   .button2:hover{
+    background-color: #FDC600;
+   }
+
+   @media (max-width: 1500px) {
+       .heading2 {
+           font-size: 34px; /* Adjust heading size */
+           margin: 0;
+       }
+
+       .sub-heading2 {
+           font-size: 17px; /* Adjust sub-heading size */
+       }
+
+       .button2 {
+           font-size: 15px; /* Adjust button size */
+           padding: 8px 16px; /* Adjust button padding */
+       }
+   }
+
+   @media (max-width: 1100px) {
+       .content-container2 {
+           position: relative; /* Reset positioning for smaller screens */
+           top: auto; /* Reset top */
+           left: auto; /* Reset left */
+           color: #000; /* Change text color for visibility */
+           background-color: transparent; /* Remove background */
+           padding: 0; /* Remove padding */
+           text-align: center; /* Center text */
+           margin: 20px; /* Add margin for spacing */
+           width:auto;
+       }
+       .content-container3 {
+           position: relative; /* Reset positioning for smaller screens */
+           top: auto; /* Reset top */
+           left: auto; /* Reset left */
+           color: #000; /* Change text color for visibility */
+           background-color: transparent; /* Remove background */
+           padding: 0; /* Remove padding */
+           text-align: center; /* Center text */
+           margin: 20px; /* Add margin for spacing */
+           width: auto;
+       }
+
+       .heading2 {
+           font-size: 32px; /* Further reduce heading size */
+       }
+
+       .sub-heading2 {
+           font-size: 16px; /* Further reduce sub-heading size */
+       }
+
+       .button2 {
+        font-size: 18px;
+        padding: 6px 35px;
+        background-color: #9441FF;
+       }
+   }
+
+   @media (max-width: 900px) {
+       .heading2 {
+           font-size: 28px; /* Further reduce heading size */
+       }
+
+       .sub-heading2 {
+           font-size: 15px; /* Further reduce sub-heading size */
+       }
+
+       .button2 {
+        font-size: 18px;
+        padding: 6px 35px;
+       }
+   }
+
+   .content-container5 {
+    text-align: center;
+    margin: 0 50px;
+  }
+  
+  .heading5 {
+    font-size: 2em;
+    margin-top: 2em;
+    margin-bottom: 0.1em;
+  }
+  
+  .sub-heading5 {
+    font-size: 1.5em;
+    color: #000000;
+    margin-bottom: 1em;
+  }
+  
+  .icons-wrapper5 {
+    gap: 20px; /* Adjusted gap for better spacing */
+  }
+  
+  .icon-item5 {
+    text-align: center;
+  }
+  
+  .icon-image5 {
+    width: 130px;
+    height: 130px;
+  }
+  
+  @media (max-width: 767px) {
+    .heading5 {
+      font-size: 1.5em;
+      margin-top: 1.5em;
+    }
+  
+    .sub-heading5 {
+      font-size: 1.2em;
+    }
+  
+    .icon-image5 {
+      width: 100px;
+      height: 100px;
+    }
+  }
+
+  .container6 {
+    background-color: #EBEBEB;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .container6 h1 {
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .cards6 {
+    display: flex;
+    justify-content: center; /* Center the cards container */
+    gap: 20px;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .card6 {
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: calc(33.333% - 20px);
+    box-sizing: border-box;
+    overflow: hidden;
+    padding: 15px;
+    text-align: center;
+  }
+  
+  .card6 img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .card6 h2 {
+    font-weight: bold;
+    margin: 35px 0;
+  }
+  
+  .card6 p {
+    font-size: 20px;
+    margin: 20px 0;
+    padding: 10px;
+    color: #000000;
+  }
+  
+  .card6 button {
+    font-weight: bold;
+    background-color: #9441FF;
+    border: none;
+    color: white;
+    padding: 10px 40px;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .card6 button:hover {
+    background-color: #FDC600;
+  }
+  
+  @media (max-width: 991px) {
+    .card6 {
+      width: calc(50% - 20px);
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .card6 {
+      width: 100%;
+    }
+  
+    .card6 h2 {
+      margin: 20px 0;
+    }
+  
+    .card6 p {
+      font-size: 16px;
+      margin: 10px 0;
+    }
+  
+    .card6 button {
+      font-size: 14px;
+      padding: 8px 40px;
+    }
+  }
+
+  .footer7 {
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 800px;
+    text-align: center;
+    background-color: #f9f9f9; /* Optional: Adds a background color for better contrast */
+}
+
+.footer-content7 {
+    margin-bottom: 40px; /* Reduced margin for better spacing */
+    border-top: 1px solid #DDDDDD;
+    padding-top: 10px;
+}
+
+.icons-row7, .icons-row8 {
+    display: flex;
+    justify-content: center; /* Center icons horizontally */
+    flex-wrap: wrap; /* Allow wrapping of icons if needed */
+    margin: 10px 0; /* Increased margin for better spacing */
+}
+
+.icon7, .icon8 {
+    margin: 0 10px; /* Adjusted margin for better spacing */
+}
+
+.icon7 {
+    width: 30px; /* Adjust icon size if necessary */
+    height: 30px;
+}
+
+.icon8 {
+    width: 50px; /* Adjusted icon size for consistency */
+    height: 50px;
+}
+
+.description7, .final-description7 {
+    font-size: 12px; /* Slightly increased font size for better readability */
+    margin: 10px 0; /* Adjusted margin for better spacing */
+}
+
+.paragraph-with-icon7 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.small-icon7 {
+    width: 50px; /* Adjust icon size if necessary */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 5px;
+}
+
+/* Responsive Styling */
+@media (max-width: 767px) {
+    .icon7, .icon8 {
+        width: 25px; /* Smaller icon size for smaller screens */
+        height: 25px;
+    }
+
+    .icon8 {
+        width: 40px; /* Smaller icon size for smaller screens */
+        height: 40px;
+    }
+
+    .description7, .final-description7 {
+        font-size: 10px; /* Smaller font size for better fit on smaller screens */
+    }
+}
+
+.scroll-div10 {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ffffff;
+    text-align: center;
+    display: none; /* Hidden initially */
+    padding: 10px 0;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* Optional: Adds a shadow for better visibility */
+}
+
+.center-button10 {
+    font-weight: bold;
+    background-color: #9441FF;
+    border: none;
+    color: white;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 2vw; /* Font size relative to viewport width */
+    padding: 0vw 5vw; /* Padding relative to viewport width */
+    margin-top: 10px; /* Margin for spacing */
+}
+
+/* Responsive Styles */
+@media (max-width: 1200px) {
+    .center-button10 {
+        font-size: 1.5vw; /* Adjust font size for smaller screens */
+        padding: 1vw 4vw; /* Adjust padding for smaller screens */
+    }
+}
+
+@media (max-width: 768px) {
+    .center-button10 {
+        font-size: 16px; /* Set a fixed font size for mobile devices */
+        padding: 10px 20px; /* Fixed padding for mobile devices */
+    }
+}
+
+@media (max-width: 480px) {
+    .center-button10 {
+        font-size: 14px; /* Smaller font size for very small screens */
+        padding: 8px 15px; /* Smaller padding for very small screens */
+    }
+}
+
